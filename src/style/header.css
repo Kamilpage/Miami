@@ -1,0 +1,25 @@
+
+.header-bg {
+    position: absolute;
+    max-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 70px;
+    color: #ffffff;
+    display: flex;
+    align-items: end;
+    height: 60vh
+}
